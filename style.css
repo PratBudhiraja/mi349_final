@@ -1,8 +1,8 @@
 body {
-    background: black;
-    color: yellow;
-    padding: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    background: chocolate;
+    color: black;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -12,21 +12,28 @@ h1 {
     letter-spacing: normal;
 }
 
+
 #portrait{
-    width: 150px;
-    position: fixed;
+    width: 350px;
     border: tomato;
     border-style: solid;
     border: 50px;
 }
 
+#nursing{
+    width: 350px;
+    border: tomato;
+    border-style:solid;
+    border: 50px;
+}
+
 .footer{
-    font-size: 25px;
+    font-size: 1em;
 }
 
 .card{
     border-radius: 10px;
-    gap: 2px;
+    gap: 10px;
     padding: 5px;
     display: inline-block;
 }
@@ -41,6 +48,7 @@ h1 {
 
 #c3 {
     background: darkcyan;
+   
 }
 
 #c4 {
@@ -49,13 +57,21 @@ h1 {
 
 #c5{
     position: absolute;
-    padding: 10px;
+    padding: 25px;
     top: 300px;
     left: 50px;
 }
 
 #c6{
     display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#c7{
+    position: absolute;
+    padding: 25px;
+    top: 270px;
+    left: 500px;
 }
 
 @media (max-width: 600px) {
